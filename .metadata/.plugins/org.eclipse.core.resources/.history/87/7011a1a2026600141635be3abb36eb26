@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.silvercloudgames.combinations.ChoiceSizeActivity" >
+
+    <item
+        android:id="@+id/restart"
+        android:orderInCategory="101"
+        android:title="New Problem"
+        android:showAsAction="ifRoom|withText" />
+	
+    <item
+	    android:id="@+id/rate"
+	    android:orderInCategory="102"
+	    android:title="Rate / Comment"
+	    android:showAsAction="ifRoom|withText" />
+    
+    <item
+	    android:id="@+id/apps"
+	    android:orderInCategory="103"
+	    android:title="Apps Page"
+	    android:showAsAction="ifRoom|withText" />
+    
+    <item
+	    android:id="@+id/donate"
+	    android:orderInCategory="104"
+	    android:title="Donate"
+	    android:showAsAction="ifRoom|withText" />
+
+</menu>

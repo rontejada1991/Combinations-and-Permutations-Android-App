@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="25dp"
+    tools:context="com.silvercloudgames.combinations.ResultActivity" >
+	    
+		<TextView
+		    android:id="@+id/tv_title"
+	        style="@style/CodeFont"
+	        android:layout_width="fill_parent"
+	        android:text="Results"
+	        android:layout_marginBottom="20dp" />
+	    
+	    <TextView
+	        style="@style/CodeFont.Med"
+	        android:id="@+id/tv_data"
+	        android:layout_width="fill_parent"
+	        android:layout_marginBottom="20dp" />
+		
+	    <ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+	    	    
+	     <TextView
+	        android:id="@+id/tv_result"
+	        style="@style/CodeFont"
+	        android:layout_width="fill_parent"
+	        android:layout_marginBottom="50dp" />
+     
+     </ScrollView>
+    
+</LinearLayout>

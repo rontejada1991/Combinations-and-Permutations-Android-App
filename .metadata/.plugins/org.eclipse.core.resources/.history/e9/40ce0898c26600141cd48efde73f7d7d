@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="25dp"
+    tools:context="com.silvercloudgames.combinations.OrderActivity" >
+ 
+	<TextView
+	    android:id="@+id/tv_title"
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:text="Order Matters"
+        android:layout_marginBottom="20dp" />    
+    
+	<TextView
+	    android:id="@+id/tv_sub"
+        style="@style/CodeFont.Med"
+        android:layout_width="fill_parent"
+        android:text="Does the order matter?"
+        android:layout_marginBottom="25dp" />
+
+		<ToggleButton
+		    android:id="@+id/tb_order"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textOn="Yes"
+		    android:textOff="No" 
+		    android:padding="50dp" />
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+
+	    <Button
+	        android:id="@+id/b_back"
+	        style="@style/CodeFont"
+	        android:text="Back"
+	        android:padding="20dp"
+	        android:layout_weight="1"
+	        android:textColor="#800000"
+	        android:layout_marginRight="10dp"
+	        android:onClick="onBackPressed" />
+	       
+	   	<Button
+	   	    android:id="@+id/b_next"
+	        style="@style/CodeFont"
+	        android:text="Next"
+	        android:padding="20dp"
+	        android:layout_weight="1"
+	        android:textColor="#008000"
+	        android:layout_marginLeft="10dp"
+	        android:onClick="onNextPressed" />
+
+	</LinearLayout>
+    
+</LinearLayout>

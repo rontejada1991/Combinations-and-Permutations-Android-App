@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="25dp"
+    tools:context="com.silvercloudgames.combinations.MainActivity" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:text="Combinations\nand\nPermutations"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/b_comb"
+        style="@style/CodeFont.Med"
+        android:text="Combination"
+        android:padding="30dp"
+        android:textColor="#000080"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:onClick="onBeginPressed" />
+    
+    <Button
+        android:id="@+id/b_perm"
+        style="@style/CodeFont.Med"
+        android:text="Permutation"
+        android:padding="30dp"
+        android:textColor="#008000"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:onClick="onBeginPressed" />
+    
+     <Button
+        android:id="@+id/b_not_sure"
+        style="@style/CodeFont.Med"
+        android:text="Not Sure"
+        android:padding="30dp"
+        android:textColor="#800000"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:onClick="onBeginPressed" />
+    
+    
+</LinearLayout>

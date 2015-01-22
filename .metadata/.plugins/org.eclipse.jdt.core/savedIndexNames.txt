@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+C:\Users\Ron\Desktop\Programming\Current projects\Combinations and Permutations workspace\.metadata\.plugins\org.eclipse.jdt.core
+699143136.index
+3123213839.index
+3533478485.index
+3735284788.index
+387971293.index
+1284074322.index
+2661148545.index

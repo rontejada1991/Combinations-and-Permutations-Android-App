@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="25dp"
+    tools:context="com.silvercloudgames.combinations.MainActivity"
+    android:background="#ee82ee" >
+
+    <TextView
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:text="Combinations\nand\nPermutations"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        style="@style/CodeFont"
+        android:text="Begin"
+        android:id="@+id/b_begin"
+        android:padding="50dp"
+        android:onClick="onBeginPressed" />
+    
+</LinearLayout>
